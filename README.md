@@ -6,7 +6,7 @@ Run golang app as background program, 以后台形式运行golang
 ## 安装：
 
 ```
-go get github.com/icattlecoder/godaemon
+go get github.com/CodyGuo/godaemon
 ```
 
 ## 示例:
@@ -15,7 +15,7 @@ go get github.com/icattlecoder/godaemon
 package main
 
 import (
-	_ "github.com/icattlecoder/godaemon"
+	_ "github.com/CodyGuo/godaemon"
 	"log"
 	"net/http"
 )
@@ -32,7 +32,7 @@ func main() {
 ## 运行
 
 ```
-./example -d=true
+./example -d=true or ./example -d true
 ~$ curl http://127.0.0.1:7070/index
 hello, golang!
 ```

@@ -1,9 +1,10 @@
 package main
 
 import (
-	_ "github.com/icattlecoder/godaemon"
 	"log"
 	"net/http"
+
+	_ "github.com/CodyGuo/godaemon"
 )
 
 func main() {
