@@ -32,7 +32,7 @@ func main() {
 ## 运行
 
 ```
-./example -d=true or ./example -d true
+./example -d=true
 ~$ curl http://127.0.0.1:7070/index
 hello, golang!
 ```
