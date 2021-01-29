@@ -8,7 +8,7 @@ import (
 )
 
 func init() {
-	Daemon := flag.Bool("d", false, "run program as a daemon with -d=true.")
+	Daemon := flag.Bool("start", false, "run program as a daemon with start.")
 	flag.Parse()
 
 	if *Daemon {
