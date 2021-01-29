@@ -14,7 +14,7 @@ start : start the program as a daemon
 }
 
 func init() {
-	Daemon := ""
+	var Daemon string
 	flag.Usage = usage
 	flag.Parse()
 	flag.Usage()
